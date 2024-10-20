@@ -17,10 +17,9 @@ function App() {
     return (
         <div className="App">
             <h1>Emojifi World - 加密货币市值可视化</h1>
-            {data ? <TreeMap data={data} /> : <p>加载中...</p>}
+            {data ? <TreeMap data={data} /> : <p className="loading">加载中...</p>}
         </div>
     );
 }
 
 export default App;
-

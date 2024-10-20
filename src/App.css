@@ -1,0 +1,38 @@
+.App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.loading {
+    font-size: 18px;
+    color: #666;
+}
+
+svg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+text {
+    font-family: Arial, sans-serif;
+    fill: white;
+}
+
+rect {
+    stroke: white;
+    stroke-width: 1px;
+}
+
+rect:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
